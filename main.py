@@ -83,7 +83,7 @@ rose
 monday
 feburary
 2021
-'''
+
 
 count = -3
 while(count<=7):
@@ -114,6 +114,22 @@ while(count<=7):
   count += 1
 
 print("I am done")
+'''
 
 
+## Expected output: 1x Python, 2x bye, 3x Evergreen, 4x 2021
+student = 10
 
+while (student > 0):
+ if (student >= 11 ):
+   print ("hello")
+ if (student >= 10):
+   print("Python")
+ elif (student > 7 ):
+   print("bye")
+ elif (student >= 5):
+   print("Evergreen")
+ else:
+   print("2021")
+
+ student -= 1
