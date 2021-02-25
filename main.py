@@ -118,18 +118,18 @@ print("I am done")
 
 
 ## Expected output: 1x Python, 2x bye, 3x Evergreen, 4x 2021
-student = 10
+student = 20
 
 while (student > 0):
- if (student >= 11 ):
+ if (student >= 22 ):
    print ("hello")
- if (student >= 10):
+ if (student >= 20):
    print("Python")
- elif (student > 7 ):
+ elif (student >= 16 ):
    print("bye")
- elif (student >= 5):
+ elif (student >= 10):
    print("Evergreen")
  else:
    print("2021")
 
- student -= 1
+ student -= 2
